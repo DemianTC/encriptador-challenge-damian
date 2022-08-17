@@ -1,0 +1,257 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #a04c9c;
+}
+
+
+
+header img {
+    max-width: 100%;
+    width: 150px;
+}
+
+main {
+    width: 100%;
+    height: 78vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.seccion1 {
+    width: 60%;
+}
+
+.area-texto {
+    width: 80%;
+    height: 70%;
+    background-color: #E5E5E5;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    resize: none;
+    outline: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    caret-color: #0065c4;
+}
+
+
+.vector {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.vector p {
+   padding-left: 10px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 12px;
+   color: #646464;
+}
+
+.container-botones {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.btn-encriptar,
+.btn-desencriptar {
+    width: 28%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 20px;
+}
+
+
+.btn-encriptar {
+    background-color: #003c74;
+    color: white;
+}
+
+.btn-encriptar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 117, 250, 0.4);
+}
+
+.btn-encriptar:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.4);
+}
+
+
+.btn-desencriptar {
+    border: none;
+    background-color: #fff;
+    color: black;
+    border: solid 1px #003c74;
+}
+
+.btn-desencriptar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 117, 250, 0.4);
+}
+
+.btn-desencriptar:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+
+
+.seccion2 {
+    width: 24%;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container-detective {
+    width: 50%, center;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.container-detective img {
+    max-width: 100%;
+    width: 150px;
+}
+
+.container-titulo {
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container-texto {
+    width: 100%;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.container-resultado {
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    padding: 25px;
+    
+    
+}
+
+.container-resultado, 
+.texto-resultado {
+    width: 100%;
+    height: 80%;
+    resize: none;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.container-copiar {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+   
+    
+}
+
+
+.btn-copiar {
+    padding: 1.3em 3em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: solid 1px #003c74;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-copiar:hover {
+    background-color: #034d92;
+    box-shadow: 0px 15px 20px rgba(0, 117, 250, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.btn-copiar:active {
+    transform: translateY(-1px);
+}
+
+
+footer {
+    width: 100%;
+    height: 44px;
+    background-color: #E5E5E5;
+}
+
+.ocultar {
+    display: none;
+}
+
+
+@media screen and (max-width: 850px){
+    main {
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+  
+    .btn-encriptar,
+    .btn-desencriptar {
+        width: 28%;
+        height: 50px;
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    header img {
+        max-width: 100%;
+        width: 50px;
+    }
+    
+   
+}
+  

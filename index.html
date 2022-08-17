@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y desencriptador</title>
+    <link rel="icon" type="images/x-icon" href="images/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" >
+    <link rel="preconnect"  crossorigin>
+    
+</head>
+<body>
+    <header>
+        <img src="images/logo one.png" alt="logo one.png">
+    </header>
+    <main>
+       
+        <section class="seccion1">
+            <textarea class="area-texto"  placeholder="Ingrese el texto aqui"></textarea>
+            
+            <div class="container-botones">
+                
+                <div class="vector">
+                    <img src="images/admira.png" alt="nota">
+                    <p><h1>Solo letras minúsculas y sin acentos</h1></p>
+                </div>
+
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        
+        <section class="seccion2">
+
+            <div class="container-detective ">
+                <img src="images/detective.png" alt="imagen detective">
+            </div>
+            <div class="container-titulo ">
+                <h3>Ningun mensaje fue encontrado</h3>
+            </div>
+            <div class="container-texto ">
+                
+            </div>
+            <div class="container-resultado">
+                <h3 class="msj-3">mensaje encriptado</h3>
+                <textarea name="" id="textArea" class="texto-resultado"></textarea>
+            </div>
+            <div class="container-copiar">
+                <input type="button" value="Copiar" class="btn-copiar" id="btn">
+                
+            </div>
+
+        </section>
+
+    </main>
+    <audio controls autoplay>
+        <source src="mp3/spy.mp3" type="audio/mp3">
+    </audio> 
+    <footer>
+        <p> <h1> "Desarrollado por Demian Tec"</h1></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
